@@ -16,6 +16,7 @@ bool esPrimo(int num) {
     return true;
 }
 
+
 int main() {
     int num;
     int i=2;

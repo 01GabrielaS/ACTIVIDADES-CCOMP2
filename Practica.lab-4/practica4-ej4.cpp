@@ -19,7 +19,8 @@ bool esPalindrome(int num) {
 
 int main() {
     int mayorPalindrome = 0;
-
+    int i=100;
+    int j=100;
     for (int i = 100; i < 1000; i++) {
         for (int j = 100; j < 1000; j++) {
             int product = i * j;
@@ -28,6 +29,7 @@ int main() {
             }
         }
     }
+
 
     cout << "The largest palindrome made from the product of two 3-digit numbers is: " << mayorPalindrome << endl;
 
